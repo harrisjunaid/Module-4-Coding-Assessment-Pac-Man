@@ -47,7 +47,7 @@ function checkPageBounds(direction, imgWidth, pos, pageWidth) { // TODO: Complet
       if(pos+imgWidth>pageWidth)direction = 1;
       break;
     case 1:
-      if(pos-imgWidth<0)direction = 0;
+      if(pos+imgWidth<0)direction = 0;
       break;
     default:
       break;
